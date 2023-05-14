@@ -11,7 +11,7 @@ const NavBar = () => {
         <nav className="navbar">
             <div className="logo">
                 <LazyLoadImage src={logo} />
-                <span className="text-xl font-logo">PureSpace</span>
+                <span className="text-xl">PureSpace</span>
             </div>
 
             <div className="navigations">

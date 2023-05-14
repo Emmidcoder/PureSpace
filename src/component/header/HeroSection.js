@@ -2,6 +2,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import flower1 from "../../img/icon-flower1.svg"
+import flower2 from "../../img/icon-flower2.svg"
 // import flower2 from "../../img/flower2.svg"
 
 
@@ -56,13 +57,24 @@ const HeroSection = () => {
             </div>
 
             <div className="header__bed">
-                <LazyLoadImage
-                    className="w-full"
-                    src={require('../../img/bed1.png')}
-                    placeholderSrc={require('../../img/bed1-small.png')}
-                    alt="Sofa"
-                    effect="blur"
-                />
+                <div className="z-10">
+                    <LazyLoadImage
+                        className="w-full"
+                        src={require('../../img/bed1.png')}
+                        placeholderSrc={require('../../img/bed1-small.png')}
+                        alt="Sofa"
+                        effect="blur"
+                    />
+                </div>
+
+                <div className="img-flower2">
+                    <LazyLoadImage
+                        className="w-full"
+                        src={flower2}
+                        alt="flower"
+                        effect="blur"
+                    />
+                </div>
             </div>
         </section>
     )

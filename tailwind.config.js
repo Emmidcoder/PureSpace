@@ -22,8 +22,8 @@ module.exports = {
       },
 
       fontFamily: {
-        body: 'Merriweather',
-        logo: 'DM Sans'
+        heading: 'Merriweather',
+        body: 'DM Sans'
       },
 
       lineHeight: {

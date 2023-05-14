@@ -10,6 +10,10 @@
     .cos-container {
         @apply px-4 sm:px-8 md:px-10 bscreen:px-14 lg:px-20
     }
+
+    .heading2{
+        @apply text-3xl font-medium
+    }
 }
 
 @layer components {
@@ -18,11 +22,11 @@
     }
 
     .heading1{
-        @apply text-5xl font-medium leading-20
+        @apply font-heading text-5xl font-medium leading-20
     }
 
     .navbar {
-        @apply cos-container h-16 flex items-center justify-between
+        @apply cos-container h-16 flex items-center justify-between 
     }
 
     .logo {
@@ -50,7 +54,11 @@
     }
 
     .img-flower1 {
-        @apply translate-x-10 z-0 
+        @apply translate-x-16 -translate-y-5 z-0 
+    }
+    
+    .img-flower2 {
+        @apply translate-y-24 -translate-x-12 z-0
     }
 
     .hero-section{
@@ -74,6 +82,54 @@
     }
 
     .header__bed{
-        @apply row-start-4 col-start-1 col-end-6
+        @apply row-start-4 col-start-1 col-end-7 flex
+    }
+
+    .preview{
+        @apply mt-32 pl-20 flex gap-6
+    }
+
+    .preview__scrollbar{
+        @apply h-24 w-1 bg-zinc-300 rounded-full
+    }
+
+    .preview__scrollbar--fill{
+        @apply h-10 bg-zinc-600
+    }
+
+    .preview__details{
+        @apply relative w-full flex items-center bg-primary-200
+    }
+
+    .preview__details--text{
+        @apply max-w-lg h-[22rem] px-10 flex items-center text-white bg-primary-300 
+    }
+    
+    .preview__details--img{
+        @apply absolute right-0 -top-28 max-w-lg 
+    }
+
+    .services{
+        @apply mt-28 cos-container
+    }
+
+    .services__items{
+        @apply flex gap-6 mt-10 [&>*]:flex [&>*]:flex-col [&>*]:items-center [&>*]:gap-4 [&>*]:text-center [&>*]:text-white [&>*]:py-11 [&>*]:px-8 [&>*]:rounded-xl
+    }
+
+    .service__quality{
+        @apply bg-primary-400
+    }
+
+    .service__functionality{
+        @apply bg-primary-300
+    }
+
+    .service__sustainability{
+        @apply bg-primary-200 text-primary-500 
+    }
+
+    .products{
+        @apply mt-24 text-center bg-gray-200
     }
 }
