@@ -130,6 +130,22 @@
     }
 
     .products{
-        @apply mt-24 text-center bg-gray-200
+        @apply mt-24 pt-8 pb-28 cos-container text-center bg-gray-200
+    }
+
+    .product__items{
+        @apply mt-20 flex items-center justify-between [&>*]:text-center
+    }
+
+    .product__item--pricing{
+        @apply w-max mx-auto px-8 border-[1px] border-gray-500 rounded-full 
+    }
+
+    .review{
+        @apply pt-10 bg-primary-500 text-white 
+    }
+
+    .review__quote{
+        @apply max-w-xl bg-white text-txtcl
     }
 }

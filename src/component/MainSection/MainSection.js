@@ -2,6 +2,7 @@ import React from "react";
 import Previews from "./Previews";
 import Services from "./Services";
 import Products from "./Products";
+import Review from "./Review";
 
 
 const MainSection = () => {
@@ -9,7 +10,8 @@ const MainSection = () => {
         <main>
             <Previews />
             <Services />
-            <Products/>
+            <Products />
+            <Review/>
         </main>
     )
 }

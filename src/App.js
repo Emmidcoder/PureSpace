@@ -8,7 +8,6 @@ function App() {
     document.body.classList.add('body')
   }, [])
 
- 
   return (
     <React.Fragment>
       <Header />
