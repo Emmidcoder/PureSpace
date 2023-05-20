@@ -142,10 +142,26 @@
     }
 
     .review{
-        @apply pt-10 bg-primary-500 text-white 
+        @apply relative pt-10 pb-40 bg-primary-500 text-white 
     }
 
     .review__quote{
         @apply max-w-xl bg-white text-txtcl
+    }
+
+    .review__scrollbar {
+        @apply h-1 w-80 mx-auto bg-zinc-300 rounded-full
+    }
+
+    .review__scrollbar--fill {
+        @apply h-1 w-20 bg-zinc-500
+    }
+
+    .img-flower3{
+        @apply absolute right-0 top-2
+    }
+
+    .img-flower4{
+        @apply absolute bottom-8
     }
 }

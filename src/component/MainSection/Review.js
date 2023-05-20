@@ -1,5 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import flower3 from "../../img/flower3.svg"
+import flower4 from "../../img/flower4.svg"
 
 
 const Review = () => {
@@ -10,6 +12,16 @@ const Review = () => {
                 <h2 className="heading2 ">What Our Customers Are Saying</h2>
                 <p>Hear from satisfied clients who've transformedtheir homes with PureSpaces</p>
             </div>
+
+            <div className="img-flower3">
+                <LazyLoadImage
+                    className="w-full"
+                    src={flower3}
+                    alt="flower"
+                    effect="blur"
+                />
+            </div>
+
             <blockquote className="my-10 flex justify-center text-txtcl">
                 <div className="h-96">
                     <LazyLoadImage
@@ -30,7 +42,21 @@ const Review = () => {
                 </div>
             </blockquote>
 
-            <div>Hello</div>
+            <div className="">
+                <div className="review__scrollbar">
+                    <div className="review__scrollbar--fill">&nbsp;</div>&nbsp;
+                </div>
+
+            </div>
+
+            <div className="img-flower4">
+                <LazyLoadImage
+                    className="w-full"
+                    src={flower4}
+                    alt="flower"
+                    effect="blur"
+                />
+            </div>
         </section>
     )
 }

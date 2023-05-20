@@ -1,6 +1,7 @@
 import React, { useEffect,} from 'react';
 import Header from './component/header/Header';
 import MainSection from './component/MainSection/MainSection';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <MainSection/>
+      <MainSection />
+      <Footer/>
     </React.Fragment>
   );
 }
