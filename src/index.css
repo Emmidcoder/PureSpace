@@ -18,7 +18,7 @@
 
 @layer components {
     .body {
-        @apply font-body font-light text-sm text-txtcl
+        @apply pt-3 font-body font-light text-sm text-txtcl
     }
 
     .heading1{
@@ -146,7 +146,7 @@
     }
 
     .review__quote{
-        @apply max-w-xl bg-white text-txtcl
+        @apply my-10 flex justify-center text-txtcl
     }
 
     .review__scrollbar {
@@ -163,5 +163,9 @@
 
     .img-flower4{
         @apply absolute bottom-8
+    }
+
+    .footer{
+        @apply cos-container py-10
     }
 }

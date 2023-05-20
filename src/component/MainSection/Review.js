@@ -22,10 +22,10 @@ const Review = () => {
                 />
             </div>
 
-            <blockquote className="my-10 flex justify-center text-txtcl">
-                <div className="h-96">
+            <blockquote className="review__quote">
+                <div className="h-[30rem]">
                     <LazyLoadImage
-                        className="w-full h-96"
+                        className="w-full h-[30rem]"
                         src={require("../../img/review-img.png")}
                         placeholderSrc={"../../img/review-small.png"}
                         alt="a man and a woman"
@@ -34,10 +34,15 @@ const Review = () => {
                 </div>
 
                 <div className="px-16 bg-white flex items-center rounded-e-xl">
-                    <div className="max-w-sm">
-                        <h4 className=" text-2xl font-semibold">John Henry</h4> 
+                    <div className="max-w-md">
+                        <h4 className=" text-2xl font-semibold">John Henry</h4>
                         <span>Amid Gamer</span>
-                        <p className="text-lg font-medium">"I've been an avid gamer for years, but virtual reality gaming has taken my experience to a whole new level. The immersive graphics and realistic environments make me feel like I'm really in the game. I highly recommend this platform to any gamer looking for an unforgettable gaming experience.</p>
+                        <p className="text-lg font-medium">"I've been an avid gamer for years,
+                            but virtual reality gaming has taken my experience to a whole new
+                            level. The immersive graphics and realistic environments make me
+                            feel like I'm really in the game. I highly recommend this platform
+                            to any gamer looking for an unforgettable gaming experience.
+                        </p>
                     </div>
                 </div>
             </blockquote>
