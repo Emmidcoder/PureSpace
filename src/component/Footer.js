@@ -19,8 +19,8 @@ const Footer = () => {
                 />
             </div>
 
-            <div className="flex justify-between">
-                <div className="max-w-md flex flex-wrap justify-between gap-x-10 bg-gray-400">
+            <div className="mt-5 flex justify-between">
+                <div className="max-w-[26.5rem] flex flex-wrap  gap-x-12 gap-y-4 ">
                     <p>Email Marketing</p>
                     <p>Campaigns</p>
                     <p>Branding</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>Our Story</p>
                     <p>Benefits</p>
                     <p>Team</p>
-                    <p>Careers</p>
+                    <p>Careers &nbsp;</p>
                     <p>FAQ</p>
                 </div>
 
@@ -61,16 +61,16 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mt-5 pb-8 flex justify-between">
                 <div>
-                    <p>Copyright © 2020. Pure Space. All rights reserved.</p>
+                    <p className="font-extralight text-[#7d7d7d] font-e">Copyright © 2020. Pure Space. All rights reserved.</p>
                 </div>
-                <div>
+                
+                <div className="flex gap-6">
                     <p>Terms & Conditions</p>
                     <p>Privacy Policy</p>
                 </div>
             </div>
-
         </footer>
     )
 }
